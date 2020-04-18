@@ -24,7 +24,7 @@ function App() {
     </AppBar>
     <Container style={{height: '100vh'}}>
         <Typography component="div" >
-          Lorem ipsum....
+          Lorem ipsum....  More content
         </Typography>
         <Button variant="contained" color="primary">Hello World</Button>
     </Container>

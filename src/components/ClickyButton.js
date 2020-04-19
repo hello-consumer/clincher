@@ -12,7 +12,7 @@ class ClickyButton extends React.Component {
     }
 
     render() {
-        return <Button variant="contained" color="primary" onClick={e => this.onClick(e)}>I've been clicked {this.state.clickedCount} times</Button>;
+        return <Button variant="contained" color="secondary" onClick={e => this.onClick(e)}>I've been clicked {this.state.clickedCount} times</Button>;
     }
 }
 

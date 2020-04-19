@@ -9,7 +9,7 @@ class TopNav extends React.Component {
     render() {
         return <AppBar position="sticky">
         <Toolbar>
-          <IconButton edge="start" color="inherit" aria-label="menu">
+          <IconButton edge="start" color="inherit" aria-label="menu" onClick={e => this.props.toggleOpen(e)}>
             <MenuIcon />
           </IconButton>
           <Typography variant="h6">
